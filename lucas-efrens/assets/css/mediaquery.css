@@ -1,0 +1,54 @@
+/* S */
+@media (min-width: 600px) {
+   
+}
+
+/* M */
+@media (min-width: 768px) {
+    
+}
+
+/* L */
+@media (min-width: 992px) {
+    /*menu normal ->*/
+    .btn-bar {
+        display: none;
+
+    }
+    
+    .menu {
+        position: relative;
+        align-items: center;
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    .menu a {
+        background-color: white;
+    }
+
+    .menu a:hover {
+        background-color: rgb(204, 204, 204);
+    }
+
+    .hide {
+        display: flex;
+    }
+
+    .close-btn {
+        display: none;
+    }
+}
+
+/* XL */
+@media (min-width: 1200px) {
+    
+}

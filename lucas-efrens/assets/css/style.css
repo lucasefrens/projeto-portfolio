@@ -88,6 +88,12 @@ html {
     background-color: var(--azul);
     color: white;
     border-radius: 50px;
+    width: 80px;
+    transition: .3s;
+}
+
+.btn-contact:hover {
+    background-color: #20728b;
 }
 
 .menu {
@@ -115,16 +121,21 @@ html {
 .menu ul {
     float: left;
     margin-top: 20px;
+    gap: 5px;
 }
 
 .menu li {
-    padding: 10px;
+    margin-top: 10px;
 }
 
 .menu a {
     font-family: var(--font-title);
     font-weight: bold;
     color: black;
+    padding: 10px;
+    border-radius: 50px;
+    width: 80px;
+    transition: .3s;
 }
 
 /* PRINCIPAL */
@@ -297,7 +308,7 @@ main {
 
 /* RODAPÉ */
 footer {
-    background-color: var(--preto);
+    background-color: var(--vermelho);
     color: white;
     text-align: center;
     padding: 20px;
