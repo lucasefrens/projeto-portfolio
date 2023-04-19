@@ -10,7 +10,7 @@
 
 /* L */
 @media (min-width: 992px) {
-    /*menu normal ->*/
+
     .btn-bar {
         display: none;
 
@@ -31,6 +31,11 @@
         text-align: center;
     }
     
+    .menu li {
+        margin: 0px;
+    }
+
+    
     .menu a {
         background-color: white;
     }
@@ -46,6 +51,49 @@
     .close-btn {
         display: none;
     }
+
+    #section-sobre {
+        background: white url(../img/lucas-xl.jpg) no-repeat top right;
+        background-size: contain;
+        align-items: center;
+        padding: 50px;
+    }
+
+    #section-sobre .conteudo {
+        width: 100%;
+    }
+
+    #section-sobre h1 {
+        font-size: 5em;
+        line-height: 90px;
+    }
+
+    #section-sobre .nome {
+        font-size: 1.6em;
+    }
+
+    #section-sobre p {
+        font-size: 18px;
+    }
+
+    #section-portfolio p {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+
+    #section-portfolio .ft-portfolio:hover {
+        max-height: 350px;
+    }
+
+    #section-contato p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #section-contato .rede-social:hover {
+        height: 650px;
+    }
+
 }
 
 /* XL */
