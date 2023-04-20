@@ -81,17 +81,9 @@
         padding-bottom: 40px;
     }
 
-    #section-portfolio .ft-portfolio:hover {
-        max-height: 350px;
-    }
-
     #section-contato p {
         font-size: 18px;
         margin-bottom: 15px;
-    }
-
-    #section-contato .rede-social:hover {
-        height: 650px;
     }
 
 }
