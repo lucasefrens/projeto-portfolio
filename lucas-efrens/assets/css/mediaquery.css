@@ -11,15 +11,6 @@
 /* L */
 @media (min-width: 992px) {
 
-    header.ativo {
-    background-color: var(--preto);
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.473);
-    }
-
-    .menu .branco {
-        color: white;
-    }
-
     .btn-bar {
         display: none;
 
@@ -46,10 +37,6 @@
 
     .menu a:hover {
         background-color: rgb(204, 204, 204);
-    }
-
-    .hide {
-        display: flex;
     }
 
     .close-btn {
@@ -89,6 +76,26 @@
         font-size: 18px;
         margin-bottom: 15px;
     }
+
+
+    /* Ações para usar com JS */
+    header.ativo {
+        background-color: var(--azul);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.473);
+    }
+    
+    .menu .branco {
+            color: white;
+    }
+
+    .contato-vermelho {
+        background-color: var(--vermelho);
+    }
+
+    .hide {
+        display: flex;
+    }
+    
 
 }
 

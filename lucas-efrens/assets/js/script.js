@@ -6,7 +6,9 @@ const header = document.querySelector('.header');
 
 const sobre = document.querySelector('#sobre');
 
-const portfolio = document.querySelector('#portfolio')
+const portfolio = document.querySelector('#portfolio');
+
+const contato = document.querySelector('.btn-contact');
 
 // função abrir menu
 btnBar.addEventListener('click', function() {
@@ -42,6 +44,7 @@ function ativarScroll() {
     portfolio.classList.toggle('branco', scrollY > 50);
     sobre.classList.toggle('branco', scrollY > 50);
     header.classList.toggle('ativo', scrollY > 50);
+    contato.classList.toggle('contato-vermelho', scrollY > 50)
 }
 
 addEventListener('scroll', ativarScroll);
