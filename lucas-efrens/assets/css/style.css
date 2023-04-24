@@ -325,10 +325,6 @@ header.ativo {
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.473);
 }
 
-.menu .branco {
-        color: white;
-}
-
 .contato-vermelho {
     background-color: var(--vermelho);
 }
