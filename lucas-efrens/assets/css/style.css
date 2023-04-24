@@ -128,7 +128,7 @@ html {
     margin-top: 10px;
 }
 
-.menu a {
+.menu .preto {
     font-family: var(--font-title);
     font-weight: bold;
     color: black;

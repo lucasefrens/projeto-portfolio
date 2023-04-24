@@ -2,6 +2,13 @@ var btnBar = document.querySelector('.btn-bar');
 
 var menuPrincipal = document.querySelector('.menu');
 
+const header = document.querySelector('.header');
+
+const sobre = document.querySelector('#sobre');
+
+const portfolio = document.querySelector('#portfolio')
+
+// função abrir menu
 btnBar.addEventListener('click', function() {
 
     menuPrincipal.removeAttribute('class')
@@ -29,3 +36,12 @@ function fecharMenu() {
 
     menuPrincipal.classList.add('hide', 'menu')
 }
+
+
+function ativarScroll() {
+    portfolio.classList.toggle('branco', scrollY > 50);
+    sobre.classList.toggle('branco', scrollY > 50);
+    header.classList.toggle('ativo', scrollY > 50);
+}
+
+addEventListener('scroll', ativarScroll);
