@@ -71,6 +71,7 @@ html {
 .btns-menu {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .btn-bar {
@@ -316,4 +317,18 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+/* ações JS */
+header.ativo {
+    background-color: var(--azul);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.473);
+}
+
+.menu .branco {
+        color: white;
+}
+
+.contato-vermelho {
+    background-color: var(--vermelho);
 }
