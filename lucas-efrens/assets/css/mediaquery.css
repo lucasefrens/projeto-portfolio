@@ -46,12 +46,12 @@
     #section-sobre {
         background: white url(../img/lucas-xl.jpg) no-repeat top right;
         background-size: contain;
-        align-items: center;
-        padding: 50px;
+        padding: 200px;
     }
 
     #section-sobre .conteudo {
         width: 100%;
+        max-width: 500px;
     }
 
     #section-sobre h1 {
