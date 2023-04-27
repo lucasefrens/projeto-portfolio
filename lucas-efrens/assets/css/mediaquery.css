@@ -44,9 +44,9 @@
     }
 
     #section-sobre {
-        background: white url(../img/lucas-xl.jpg) no-repeat top right;
+        background: white url(../img/lucas-xl.jpg) no-repeat bottom right;
         background-size: contain;
-        padding: 200px;
+        padding: 100px;
     }
 
     #section-sobre .conteudo {
@@ -55,6 +55,7 @@
     }
 
     #section-sobre h1 {
+        margin-top: 0px;
         font-size: 5em;
         line-height: 90px;
     }
